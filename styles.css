@@ -90,7 +90,7 @@ footer p{
 }
 
 #oat{
-    background-image: url('media/oats.png');
+    background-image: url('media/oatsPack.png');
     background-size: cover;
 }
 
@@ -235,7 +235,7 @@ fa {
     width: 100%;
     height: 100%;
 	color:#ffffff;
-	background-color: rgba(74,74,74,0.9);
+	background-color: rgba(0,0,0,0.8);
 	opacity:0;
     transition: all 0.5s;
     padding-top: 25px;
@@ -305,8 +305,16 @@ color: #7ACCC8;
 #projects .button:hover {
     color: #000000;
     background-color: #ffffff;
-    border:none;
+    border: solid #ffffff;
+    
 }
+/*
+#projects a.behance{
+    color: #ffffff;
+    display: inline-block;
+    margin-top:20px;
+}
+*/
 
 
 /*== responsive ==*/
