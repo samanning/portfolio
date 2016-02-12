@@ -79,13 +79,13 @@ footer p {
     background-color: #EFEFEF;
 }
 
-#time {
-    background-image: url('media/time3.png');
+#terrarium {
+    background-image: url('media/Design_a_TerrariumCropped.png');
     background-size: cover;
 }
 
-#terrarium {
-    background-image: url('media/Design_a_TerrariumCropped.png');
+#time {
+    background-image: url('media/time3.png');
     background-size: cover;
 }
 
