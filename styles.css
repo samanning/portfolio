@@ -1,6 +1,9 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
 @import url(http://fonts.googleapis.com/css?family=Montserrat|Crimson+Text:400,400italic);
+
 /*== CSS ==*/
+
+
 /*== typography ==*/
 
 body {
@@ -41,21 +44,23 @@ header h2 {
     letter-spacing: 3px;
 }
 
-#bio p{
-	font-family: 'Crimson Text', 'Times New Roman', serif;
+#bio p {
+    font-family: 'Crimson Text', 'Times New Roman', serif;
     font-size: 14pt;
     text-align: center;
     color: #344050;
 }
-footer p{
-	font-size: 8pt;
-	color: #344050;
+
+footer p {
+    font-size: 8pt;
+    color: #344050;
 }
 
-.proj-info p{
+.proj-info p {
     font-size: 12pt;
     text-transform: uppercase;
 }
+
 
 /*== backgrounds ==*/
 
@@ -71,7 +76,7 @@ footer p{
 }
 
 #projects {
-	background-color: #EFEFEF;
+    background-color: #EFEFEF;
 }
 
 #time {
@@ -79,8 +84,8 @@ footer p{
     background-size: cover;
 }
 
-#bike {
-    background-image: url('media/bikes.png');
+#terrarium {
+    background-image: url('media/Design_a_TerrariumCropped.png');
     background-size: cover;
 }
 
@@ -89,7 +94,7 @@ footer p{
     background-size: cover;
 }
 
-#oat{
+#oat {
     background-image: url('media/oatsPack.png');
     background-size: cover;
 }
@@ -104,40 +109,42 @@ footer p{
     background-size: cover;
 }
 
-
-footer{
-	background-color: #7ACCC8;
-	background-size: cover;
-
+footer {
+    background-color: #7ACCC8;
+    background-size: cover;
 }
 
+
 /*== padding, margins ==*/
+
 body {
     margin: 0px;
     padding: 0px;
 }
+
 #projects {
-	padding-top: 125px;
-	padding-bottom: 125px;
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
-#projects h2{
-	padding-bottom: 30px;
+
+#projects h2 {
+    padding-bottom: 30px;
 }
+
 #projects .one-third {
     padding-left: 1.5%;
     padding-right: 1.5%;
     padding-bottom: 1.5%;
 }
 
-.proj-info p{
+.proj-info p {
     padding-left: 15px;
     padding-right: 15px;
 }
 
 #bio {
-	margin-top: 150px;
-	margin-bottom: 150px;
-    
+    margin-top: 150px;
+    margin-bottom: 150px;
 }
 
 #bio p {
@@ -146,24 +153,25 @@ body {
 }
 
 #connect {
-	margin-top: 125px;
-	padding-bottom: 10px;
+    margin-top: 125px;
+    padding-bottom: 10px;
 }
 
-#social-media{
-	margin-bottom: 125px;
+#social-media {
+    margin-bottom: 125px;
 }
 
 footer {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-left: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
 }
 
 ul {
-    padding-left:0px;
+    padding-left: 0px;
     padding-right: 90px;
 }
+
 
 /*== extras ==*/
 
@@ -200,7 +208,7 @@ ul {
     margin-top: 25px;
 }
 
-#social-media .button{
+#social-media .button {
     color: #344050;
     background-color: none;
     padding-top: 10px;
@@ -228,27 +236,28 @@ fa {
     padding-top: 50px;
 }
 
-.proj-info{
+.proj-info {
     position: absolute;
     top: 0px;
     left: 0px;
     width: 100%;
     height: 100%;
-	color:#ffffff;
-	background-color: rgba(0,0,0,0.8);
-	opacity:0;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
     transition: all 0.5s;
     padding-top: 25px;
 }
 
-
-.proj-info:hover{
-    opacity:1;
+.proj-info:hover {
+    opacity: 1;
 }
 
 .up {
     position: absolute;
 }
+
+
 /*== grid ==*/
 
 * {
@@ -286,16 +295,19 @@ fa {
     margin: auto;
 }
 
+
 /*== Pseudo classes ==*/
-#nav a:hover{
-	color: #344050;
+
+#nav a:hover {
+    color: #344050;
 }
+
 .menu:hover {
     color: #344050;
 }
 
-#social-media a:hover{
-color: #7ACCC8;
+#social-media a:hover {
+    color: #7ACCC8;
 }
 
 #social-media .button {
@@ -306,8 +318,9 @@ color: #7ACCC8;
     color: #000000;
     background-color: #ffffff;
     border: solid #ffffff;
-    
 }
+
+
 /*
 #projects a.behance{
     color: #ffffff;
@@ -318,10 +331,10 @@ color: #7ACCC8;
 
 
 /*== responsive ==*/
+
 .menu {
     text-align: right;
     padding-top: 0px;
     padding-right: 5px;
     color: #ffffff;
 }
-
